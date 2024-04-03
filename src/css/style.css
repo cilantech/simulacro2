@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.logo{
 
-width: 5%;
-height: 10%;
-
+.logo {
+    width: 5%;
+    height: 10%;
 }
-.navegador{
+
+.navegador {
     inline-size: 50%;
-    display:flex;
+    display: flex;
     align-items: center;
     background-image: url(/./public/img/Mis\ viajes\ \(4\).png);
     color: white;
@@ -22,83 +22,82 @@ height: 10%;
     padding-left: 2%;
     padding-right: 5%;
     padding: 4%;
-    
-} 
-
-.a-blanco{
-
+}
+/* empieza seccion iconos */
+.a-blanco {
     color: rgb(255, 255, 255);
     padding-left: 27%;
-    
 }
 
-.iconos-azules{
+.iconos-azules {
     color: rgb(0, 21, 255);
     padding-left: 1%;
     /* background-color: rgb(51, 10, 200);
     border-radius: 90%; */
 }
 
-.instagram{
+.instagram {
     color: rgb(196, 101, 41);
     padding-left: 1%;
 }
 
-.youtube{
+.youtube {
     color: rgb(216, 33, 33);
     padding-left: 1%;
 }
 
-.snapchat{
+.snapchat {
     color: rgb(187, 124, 14);
     padding-left: 1%;
 }
 
-
-h1{
+.icon-blanco {
+    color: rgb(255, 255, 255);
+}
+/* Termina seccion caracteristicas iconos */
+/* empieza caracteristicas textos e imagenes */
+h1 {
     font-family: "Chewy", system-ui;
-    padding-right: 20%;    
+    padding-right: 20%;
 }
 
-h2{
+h2 {
     background: rgba(0, 0, 0, 0.656);
-    
-    
 }
 
-.imagen-1{
+.imagen-1 {
     width: 50%;
     height: 50%;
 }
 
-.imagen-2{
+.imagen-2 {
     width: 30%;
     height: 30%;
 }
 
-article{
+/* Termina seccion caracteristicas textos e imagenes */
+
+article {
     justify-content: center;
     display: flex;
     align-items: end;
 }
 
-.columnas{
+.columnas {
     justify-content: center;
     display: inline-table;
     align-items: end;
-
 }
 
-figure{
+figure {
     padding-left: 1%;
     padding-right: 1%;
     padding: 4%;
     position: relative;
-    display:flex;
-
+    display: flex;
 }
 
-.boton-leer{
+.boton-leer {
     background: none;
     border: none;
     color: blue;
@@ -106,15 +105,8 @@ figure{
     padding-right: 1%;
 }
 
-footer{
+footer {
     background-color: black;
     padding-left: 50%;
-}
-
-.icon-blanco{
-
-    color: rgb(255, 255, 255);
-
-    
 }
 
